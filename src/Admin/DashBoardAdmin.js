@@ -37,16 +37,25 @@ function DashBoardAdmin() {
                     </li>
                     <li className="dashboard__nav-item">
                         <NavLink
-                            to="/admin/categories"
+                            to="/admin/tours"
                             className="dashboard__nav-link"
                             activeClassName="active"
                         >
-                            Quản lý danh mục
+                            Quản lý chuyến đi
                         </NavLink>
                     </li>
                     <li className="dashboard__nav-item">
                         <NavLink
-                            to="/admin/noti"
+                            to="/admin/blogs"
+                            className="dashboard__nav-link"
+                            activeClassName="active"
+                        >
+                            Quản lý bài viết
+                        </NavLink>
+                    </li>
+                    <li className="dashboard__nav-item">
+                        <NavLink
+                            to="/admin/notifications"
                             className="dashboard__nav-link"
                             activeClassName="active"
                         >
